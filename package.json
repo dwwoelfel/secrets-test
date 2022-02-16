@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +13,8 @@
   "dependencies": {
     "@octokit/core": "^3.5.1",
     "@octokit/plugin-rest-endpoint-methods": "^5.5.2",
-    "@sgrove/netlify-functions": "^0.7.3-handle-secrets.7"
+    "@sgrove/netlify-functions": "^0.7.3-handle-secrets.7",
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "@octokit/openapi-types": "^9.2.0",
